@@ -38,18 +38,23 @@ const Navbar = () => {
                             <i onClick={toggle} class="fa-solid fa-bars"></i>
                         </div>
                         <div className='Navbar '>
-                            <ul class="nav col-md-8 d-flex mb-2 justify-content-center mb-md-0 text-white">
-                                <li ><Link to="/nfl" class="nav-link px-2 text-white">NFL</Link></li>
-                                <li><Link to="/nba" class="nav-link px-2 text-white">NBA</Link></li>
-                                <li><Link to="/mlb" class="nav-link px-2 text-white">MLB</Link></li>
-                                <li><Link to="/watch" class="nav-link px-2 text-white">Watch</Link></li>
-                                <li><Link to="/podcast" class="nav-link px-2 text-white">Podcast</Link></li>
-                                <li><Link to="/about" class="nav-link px-2 text-white">About</Link></li>
+                            <ul class="nav col-md-8 d-flex mb-2 justify-content-center mb-md-0 text-white flex-dirction-row">
+                                <div className='navSearchBar'>
+                                    <input type="text" placeholder='Search' />
+                                    <button>Search</button>
+                                </div>
+                                <div className='d-flex linkBox'>
+                                    <li ><Link to="/nfl" class="nav-link px-2 text-white">NFL</Link></li>
+                                    <li><Link to="/nba" class="nav-link px-2 text-white">NBA</Link></li>
+                                    <li><Link to="/mlb" class="nav-link px-2 text-white">MLB</Link></li>
+                                    <li><Link to="/watch" class="nav-link px-2 text-white">Watch</Link></li>
+                                    <li><Link to="/podcast" class="nav-link px-2 text-white">Podcast</Link></li>
+                                    <li><Link to="/about" class="nav-link px-2 text-white">About</Link></li>
+                                </div>
                             </ul>
-                            <div class="col-md-4 d-flex justify-content-around align-items-center nabBtn">
+                            <div class="col-md-4 d-flex  align-items-center nabBtn">
                                 <button data-bs-toggle="modal" data-bs-target="#exampleModal" type='button' class="btn btn-outline-secondary me-2">Login</button>
                                 <button data-bs-toggle="modal" data-bs-target="#exampleModal1" type='button' class="btn btn-primary me-2">Sign-up</button>
-
                             </div>
                         </div>
 
