@@ -12,7 +12,6 @@ export default function Layout({ children }) {
         reverseOrder={false}
       /> */}
         <main>{children}</main>
-        <Login>
         <form className='loginform'>
              <div class="mb-3">
                  <label htmlFor="email" class="form-label">User name</label>
@@ -26,8 +25,6 @@ export default function Layout({ children }) {
 
              <button type="submit" class="btn ">Login</button>
          </form>
-
-        </Login>
       <Footer />
     </>
   );
