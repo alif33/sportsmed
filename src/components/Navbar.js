@@ -3,10 +3,10 @@ import Link from "next/link";
 
 const Navbar = () => {
   const toggle = () => {
-    if (document.querySelector(".Navbar").style.opacity === "1") {
-      document.querySelector(".Navbar").style.opacity = "0";
+    if (document.querySelector(".Navbar").style.display === "block") {
+      document.querySelector(".Navbar").style.display = "none";
     } else {
-      document.querySelector(".Navbar").style.opacity = "1";
+      document.querySelector(".Navbar").style.display = "block";
     }
   };
   return (
