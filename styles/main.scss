@@ -160,6 +160,9 @@ body {
     background: rgba($color: #000000, $alpha: 0.3);
   }
 }
+#podcast {
+  border: 5px solid rgb(255, 255, 255);
+}
 .podcastBox {
   cursor: pointer;
   .podcastImage {
