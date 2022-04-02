@@ -518,35 +518,35 @@ body {
   height: 100%;
 }
 
-// @media screen and (max-width: 600px) {
-//   .navbarWrapper {
-//     display: block;
-//     position: relative;
-//   }
-//   .navbarmemuWrapper {
-//     width: 100%;
-//   }
+@media screen and (max-width: 600px) {
+  .navbarWrapper {
+    display: block;
+    position: relative;
+  }
+  .navbarmemuWrapper {
+    width: 100%;
+  }
 
-//   .NavLogoWarpper {
-//     width: 100%;
-//   }
+  .NavLogoWarpper {
+    width: 100%;
+  }
 
-//   .Navar-loginButton {
-//     width: 50%;
-//     display: flex;
-//     justify-content: flex-start;
-//   }
+  .Navar-loginButton {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
 
-//   .navmenuItem ul li {
-//     padding: 10px 8px;
-//   }
-//   .Search-ItemListWrapper {
-//     padding: 30px 0px;
-//   }
-//   .DuplicateMenuList {
-//     display: none;
-//   }
-// }
+  .navmenuItem ul li {
+    padding: 10px 8px;
+  }
+  .Search-ItemListWrapper {
+    padding: 30px 0px;
+  }
+  .DuplicateMenuList {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .podcastBox {
