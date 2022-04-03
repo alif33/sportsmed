@@ -1,16 +1,16 @@
-import Navbar from "./Navbar";
-// import Footer from './Login';
-import Login from "./Login";
-import Footer from "./Footer";
+import Navbar from './Navbar';
+import Login from './Login';
+import Footer from './Footer';
+import { Toaster } from 'react-hot-toast';
 
 export default function Layout({ children }) {
   return (
     <>
       <Navbar />
-      {/* <Toaster
+      <Toaster
         position="top-center"
         reverseOrder={false}
-      /> */}
+      />
       <main>{children}</main>
 
       <Footer />
