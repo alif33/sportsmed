@@ -1,15 +1,9 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from '../styles/Home.module.css';
-import Layout from '../src/vuexy/Layout';
-
+import Layout from '../../src/vuexy/Layout';
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        
-      </Head>
     <Layout>
       <div className="app-content content ">
         <div className="content-overlay" />
@@ -97,7 +91,5 @@ export default function Home() {
         </div>
       </div>
     </Layout>
-
-  </div>
   )
 }
