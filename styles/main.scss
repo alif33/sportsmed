@@ -23,7 +23,8 @@ body {
 #about,
 #disclaimer,
 #podcast,
-#login {
+#login,
+#playPodCast {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -50,6 +51,68 @@ body {
     p {
       line-height: 1.6;
     }
+  }
+}
+
+.allepisodes {
+  width: max-content;
+  cursor: pointer;
+  i {
+    margin-top: 0.3rem;
+  }
+}
+.audiobox {
+  position: relative;
+}
+
+.porgresbar {
+  width: 80vw;
+  color: white;
+}
+
+.gold {
+  height: 44px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.controlBtn {
+  button {
+    border: none;
+    outline: none;
+    color: white;
+    background: transparent;
+    &:nth-child(3) {
+      svg {
+        width: 40px;
+      }
+    }
+    svg {
+      width: 20px;
+      margin: 0 1rem;
+
+      &:hover {
+        transition: 0.2s linear;
+        color: rgb(176, 176, 176);
+      }
+    }
+  }
+}
+
+.prbBox {
+  button {
+    background: transparent;
+    color: white;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .sliderBox {
+    flex-direction: column;
   }
 }
 
