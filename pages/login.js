@@ -45,8 +45,12 @@ const login = () => {
             <div>
               <label htmlFor="email">Email</label>
               <input
+                {...register("email",
+                  {
+                      required: 'Email is required.'
+                  }
+                )}  
                 type="email"
-                name="email"
                 id="email"
                 placeholder="Enter your Email"
               />

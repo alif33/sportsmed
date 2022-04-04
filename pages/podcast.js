@@ -15,7 +15,7 @@ const Podcast = () => {
           <div className="container mt-4 ">
             <div className="my-4 d-flex justify-content-around align-items-center ">
               <div className=" searchbar">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <i className="fa-solid fa-magnifying-glass"></i>
                 <input
                   type="text"
                   className=" bg-transparent py-2 px-4 border-0 text-white "
@@ -177,10 +177,10 @@ const Podcast = () => {
               <div className="mt-2">
                 <div className="podcastBox d-flex justify-content-center align-items-center gap-md-4 gap-2">
                   <div className="podcastImage">
-                    <i class="fa-solid fa-play"></i>
+                    <i className="fa-solid fa-play"></i>
                     <img
                       src="/images/UltimateLogo.png"
-                      class="img-fluid|thumbnail rounded-top|rounded-end|rounded-bottom|rounded-start|rounded-circle| "
+                      className="img-fluid|thumbnail rounded-top|rounded-end|rounded-bottom|rounded-start|rounded-circle| "
                       alt="not fiend"
                     />
                   </div>
@@ -204,10 +204,10 @@ const Podcast = () => {
               <div className="mt-5">
                 <div className="podcastBox d-flex justify-content-center align-items-center gap-md-4 gap-2">
                   <div className="podcastImage">
-                    <i class="fa-solid fa-play"></i>
+                    <i className="fa-solid fa-play"></i>
                     <img
                       src="/images/UltimateLogo.png"
-                      class="img-fluid|thumbnail rounded-top|rounded-end|rounded-bottom|rounded-start|rounded-circle| "
+                      className="img-fluid|thumbnail rounded-top|rounded-end|rounded-bottom|rounded-start|rounded-circle| "
                       alt="not fiend"
                     />
                   </div>
@@ -227,10 +227,10 @@ const Podcast = () => {
               <div className="mt-5">
                 <div className="podcastBox d-flex justify-content-center align-items-center gap-md-4 gap-2">
                   <div className="podcastImage">
-                    <i class="fa-solid fa-play"></i>
+                    <i className="fa-solid fa-play"></i>
                     <img
                       src="/images/UltimateLogo.png"
-                      class="img-fluid|thumbnail rounded-top|rounded-end|rounded-bottom|rounded-start|rounded-circle| "
+                      className="img-fluid|thumbnail rounded-top|rounded-end|rounded-bottom|rounded-start|rounded-circle| "
                       alt="not fiend"
                     />
                   </div>
@@ -251,10 +251,10 @@ const Podcast = () => {
               <div className="mt-5">
                 <div className="podcastBox d-flex justify-content-center align-items-center gap-md-4 gap-2">
                   <div className="podcastImage">
-                    <i class="fa-solid fa-play"></i>
+                    <i className="fa-solid fa-play"></i>
                     <img
                       src="/images/UltimateLogo.png"
-                      class="img-fluid|thumbnail rounded-top|rounded-end|rounded-bottom|rounded-start|rounded-circle| "
+                      className="img-fluid|thumbnail rounded-top|rounded-end|rounded-bottom|rounded-start|rounded-circle| "
                       alt="not fiend"
                     />
                   </div>

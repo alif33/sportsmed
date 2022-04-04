@@ -13,8 +13,8 @@ export const showErr = err =>{
 
 
     // Category
-    err?.category_name && toast
-        .error(err.category_name.message)
+    err?.videoUri && toast
+        .error(err.videoUri.message)
     err?.category_id && toast
         .error(err.category_id.message)
 

@@ -4,23 +4,23 @@ import Layout from "./../src/components/Layout";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "none", background: "red" }}
-      onClick={onClick}
-    />
-  );
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "none", background: "red" }}
+        onClick={onClick}
+      />
+    );
 }
 function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "none", background: "green" }}
-      onClick={onClick}
-    />
-  );
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "none", background: "green" }}
+        onClick={onClick}
+      />
+    );
 }
 
 export default class Watch extends Component {
@@ -141,9 +141,9 @@ export default class Watch extends Component {
                     height="200"
                     src="https://www.youtube-nocookie.com/embed/53cvnxsLuig"
                     title="YouTube video player"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                   ></iframe>
                 </div>
               </Slider>

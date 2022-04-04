@@ -88,6 +88,19 @@ export const updateData = async (endPoint, formData, token) => {
     }
 }
 
+
+export const deleteData = async (endPoint, formData, token) => {
+    try {
+        const { data } = await axios.delete(API_URL + endPoint, formData, {
+            headers: authHeader(token)
+        })
+        return data
+    } catch (error) {
+        toast.error(`${error?.response?.data?.message}`)
+        return error
+    }
+}
+
 export const getFormData = async (key, data) => {
     // needed for images
     const formData = new FormData()
